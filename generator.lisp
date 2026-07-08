@@ -8,7 +8,7 @@
     out))
 
 (defun get-link-element (path)
-  (format nil "<a href=\"lore_pages/~a\">~:(~a~)</a>"
+  (format nil "<p><a href=\"lore_pages/~a\">~:(~a~)</a></p>"
 	  (file-namestring path)
 	  (substitute #\space #\_ (pathname-name path))))
 
