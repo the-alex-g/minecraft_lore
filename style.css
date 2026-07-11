@@ -1,8 +1,17 @@
 body {
-	width: 100%;
-	max-width: 600px;
-	margin: 0 auto;
-	font-family: 'Times New Roman', Times, serif;
-	background-color: #f0f0f0;
-	padding: 20px;
+    background-color: #052a32;
+}
+main {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height:max-content;
+    min-height:90%;
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
 }
